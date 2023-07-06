@@ -6,12 +6,9 @@
  */
 
 import React from 'react';
-import { SafeAreaView, StatusBar, useColorScheme } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { ChatBox } from './components/ChatBox';
-import { Appbar } from "react-native-paper";
-import HeaderDrawer from "./components/layout/HeaderDrawer";
-import {Text} from 'react-native';
+import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {ChatBox} from './components/ChatBox';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
